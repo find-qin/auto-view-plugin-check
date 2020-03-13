@@ -22,7 +22,7 @@ autoView({
 
 ### demo
 
-![demo](docs/pic/demo.png)
+<img src="./docs/pic/demo.png" width="375" height="667" />
 
 V - 曝光量
 C - 点击量(下面模块手动点了20次 🙂)
