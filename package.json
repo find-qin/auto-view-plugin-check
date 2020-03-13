@@ -1,0 +1,26 @@
+{
+  "name": "@findqin/auto-view-plugin-check",
+  "version": "0.1.0",
+  "description": "查看打点数据的 [auto-view](https://github.com/find-qin/auto-view) 插件，支持检测当前上报 mv/mc",
+  "main": "./dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "release": "npm config set registry https://registry.npmjs.org/ && npm publish --access=public && npm config set registry http://registry.npm.taobao.org/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/find-qin/auto-view-plugin-check.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/find-qin/auto-view-plugin-check/issues"
+  },
+  "homepage": "https://github.com/find-qin/auto-view-plugin-check#readme",
+  "files": [
+    "dist/"
+  ]
+}
