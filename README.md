@@ -1,5 +1,5 @@
-# auto-view-plugin-check   
-查看打点数据的 [auto-view](https://github.com/find-qin/auto-view) 插件，支持检测当前上报 mv/mc
+# acheck-auto-view-plugin  
+查看打点数据的 [auto-view](https://github.com/miphas/auto-view) 插件，支持检测当前上报 mv/mc
 
 ### notice  
 - 插件使用 ES2015 语法，包含 Map 使用，如果需要 ES5 环境运行，请自行做好 Polyfill
@@ -8,8 +8,8 @@
 ### Usage
 ``` javascript
 
-import autoView from '@findqin/auto-view'
-import autoViewPluginCheck from '@findqin/auto-view-plugin'
+import autoView from '@miphas/auto-view'
+import autoViewPluginCheck from '@miphas/check-auto-view-plugin'
 
 autoView({
     onElemView: (vid, vdata) => {},
