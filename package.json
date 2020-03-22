@@ -1,25 +1,26 @@
 {
-  "name": "@findqin/auto-view-plugin-check",
+  "name": "@miphas/check-auto-view-plugin",
   "version": "0.1.0",
-  "description": "查看打点数据的 [auto-view](https://github.com/find-qin/auto-view) 插件，支持检测当前上报 mv/mc",
+  "description": "查看打点数据的 [auto-view](https://github.com/miphas/auto-view) 插件，支持检测当前上报 mv/mc",
   "main": "./dist/index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "release": "npm config set registry https://registry.npmjs.org/ && npm publish --access=public && npm config set registry http://registry.npm.taobao.org/",
+    "build": "rm -rf ./dist && tsc",
+    "release": "npm run build && npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/find-qin/auto-view-plugin-check.git"
+    "url": "git+https://github.com/miphas/check-auto-view-plugin.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/find-qin/auto-view-plugin-check/issues"
+    "url": "https://github.com/miphas/check-auto-view-plugin/issues"
   },
-  "homepage": "https://github.com/find-qin/auto-view-plugin-check#readme",
+  "homepage": "https://github.com/miphas/check-auto-view-plugin#readme",
   "files": [
     "dist/"
   ]
